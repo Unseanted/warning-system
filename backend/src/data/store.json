@@ -1,0 +1,53 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "admin@frpews.local",
+      "hashed_password": "$2a$10$6d9BT.OxKL59oaOXSkh4K.sES3TshyVEJrNCAnEscvqs6.XD3waey",
+      "full_name": "FRPEWS Admin",
+      "role": "admin",
+      "phone": "+2348000000000",
+      "is_active": 1,
+      "created_at": "2026-10-21T08:52:30.244Z"
+    }
+  ],
+  "stations": [
+    {
+      "id": 1,
+      "name": "Makurdi",
+      "state": "Benue",
+      "latitude": 7.73,
+      "longitude": 8.52,
+      "river_name": "Benue River",
+      "is_active": 1
+    },
+    {
+      "id": 2,
+      "name": "Lokoja",
+      "state": "Kogi",
+      "latitude": 7.8,
+      "longitude": 6.74,
+      "river_name": "Niger-Benue Confluence",
+      "is_active": 1
+    },
+    {
+      "id": 3,
+      "name": "Onitsha",
+      "state": "Anambra",
+      "latitude": 6.17,
+      "longitude": 6.78,
+      "river_name": "River Niger",
+      "is_active": 1
+    }
+  ],
+  "predictions": [],
+  "alerts": [],
+  "subscriptions": [],
+  "seq": {
+    "users": 1,
+    "stations": 3,
+    "predictions": 0,
+    "alerts": 0,
+    "subscriptions": 0
+  }
+}
